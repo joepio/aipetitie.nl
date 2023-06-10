@@ -3,7 +3,7 @@
 	import Sign from '$lib/components/Sign.svelte'
 	import Signer from '$lib/components/Signer.svelte'
 
-	const title = 'Politiek, neem controle over AI'
+	const title = 'Petitie: Politiek, neem controle over AI'
 	export let data
 	let count = data.count
 </script>
@@ -13,7 +13,9 @@
 	<meta property="og:title" content={title} />
 	<meta
 		property="og:description"
-		content="We are risking human extinction. We need to pause AI development, right now."
+		content="De opkomst van AI biedt kansen, maar brengt ook enorme risico's met zich mee. Daarom doen
+		wij een oproep aan de Nederlandse politiek: neem controle over de ontwikkeling van AI. Zorg
+		dat de mens bepaalt hoe een toekomst met AI eruitziet. Niet andersom."
 	/>
 </svelte:head>
 
