@@ -105,19 +105,19 @@
 	</section>
 	<section class="sign">
 		<Progress {count} />
-		<div class="signers">
-			{#each data.signers as s}
-				<Signer {s} />
-			{/each}
-		</div>
 		<div class="you-sighn">
-			<h2>Zet ook je handtekening</h2>
 			<a
 				class="button"
 				href="https://docs.google.com/forms/d/e/1FAIpQLSdYfWgS-rFd5-NRhvBm4AoWGR6xQ_0fZtzBALKRyiIsLptOYA/viewform?usp=sf_link"
 			>
-				Teken de petitie
+				Teken ook de petitie
 			</a>
+		</div>
+		<h3>Zij gingen je voor:</h3>
+		<div class="signers">
+			{#each data.signers as s}
+				<Signer {s} />
+			{/each}
 		</div>
 	</section>
 </div>
@@ -142,18 +142,20 @@
 		gap: 1rem;
 		display: flex;
 		flex-direction: column;
-		flex: 1;
+		max-width: 20rem;
+		margin-left: auto;
 	}
 	.signers {
 		display: flex;
 		flex-direction: column;
-		gap: 1rem;
-		min-width: 20rem;
+		gap: 1.5rem;
+		/* max-height: 30rem;
+		overflow-y: auto; */
 	}
 	.split {
 		display: flex;
 		flex-direction: row;
-		gap: 2rem;
+		gap: 4rem;
 	}
 	/* Show beneath on small screens */
 	@media (max-width: 60rem) {

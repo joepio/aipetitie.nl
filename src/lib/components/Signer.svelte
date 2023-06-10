@@ -4,28 +4,25 @@
 	export let s: Signer
 </script>
 
-<!-- Currently hide all non-picture signers -->
-{#if s.foto}
-	<div class="signer">
-		{#if s.foto}
-			<img src={s.foto} alt={s.naam} />
-		{/if}
-		<div class="details">
-			<h3 class="name">
-				{#if s.twitter}
-					<a href={`https://twitter.com/${s.twitter}`} target="_blank" rel="noopener noreferrer"
-						>{s.naam}</a
-					>
-				{:else}
-					{s.naam}
-				{/if}
-			</h3>
-			{#if s.functie}
-				<div class="function">{s.functie}</div>
+<div class="signer">
+	<div class="details">
+		<h3 class="name">
+			{#if s.twitter}
+				<a href={`https://twitter.com/${s.twitter}`} target="_blank" rel="noopener noreferrer"
+					>{s.naam}</a
+				>
+			{:else}
+				{s.naam}
 			{/if}
-		</div>
+		</h3>
+		{#if s.functie}
+			<div class="function">{s.functie}</div>
+		{/if}
 	</div>
-{/if}
+	{#if s.foto}
+		<img src={s.foto} alt={s.naam} />
+	{/if}
+</div>
 
 <style>
 	.name,
@@ -50,5 +47,6 @@
 		max-width: 80px;
 		max-height: 80px;
 		border-radius: 999px;
+		margin-left: auto;
 	}
 </style>
