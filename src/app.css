@@ -1,0 +1,147 @@
+body {
+	margin: 0;
+}
+
+html {
+	/* font */
+	--font-body: 'Roboto Slab', serif;
+	--font-heading: 'Saira Condensed', Impact, sans-serif;
+
+	/* Major theme stuff */
+	--page-width: 70rem;
+
+	/* Colors */
+	--t-color-main: #a2180d; /* Default main color */
+
+	/* dark */
+	--brand-dark: var(--t-color-main);
+
+	/* light */
+	--brand-light: var(--t-color-main);
+
+	--brand-white: #ecede2;
+	--brand-black: #000b37;
+}
+
+:root {
+	color-scheme: dark;
+
+	--brand: var(--brand-light);
+	--brand-subtle: hsl(32, 100%, 30%);
+	--text: var(--brand-black);
+	--bg: var(--brand-white);
+}
+
+@media (prefers-color-scheme: light) {
+	:root {
+		color-scheme: light;
+
+		--brand: var(--brand-light);
+	}
+}
+
+[color-scheme='dark'] {
+	color-scheme: dark;
+
+	--brand: var(--brand-dark);
+	--brand-subtle: hsl(32, 100%, 75%);
+	--text: var(--brand-white);
+	--bg: var(--brand-black);
+}
+
+[color-scheme='light'] {
+	color-scheme: light;
+
+	--brand: var(--brand-light);
+	--brand-subtle: hsl(32, 100%, 35%);
+	--text: var(--brand-black);
+}
+
+html,
+body {
+	height: 100%;
+	font-family: var(--font-body);
+	background-color: var(--bg);
+}
+
+html {
+	color: var(--text);
+	accent-color: var(--link);
+	background-image: var(--background);
+	background-attachment: fixed;
+	font-size: 1.2rem;
+}
+
+img {
+	border-radius: var(--radius-3);
+}
+
+ul,
+ol {
+	list-style: none;
+	padding: 0;
+}
+
+li {
+	padding-inline-start: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5 {
+	font-family: var(--font-heading);
+	font-weight: 700;
+	line-height: 1em;
+}
+
+h1 {
+	font-size: 3rem;
+}
+
+.prose {
+	line-height: 1.5em;
+}
+
+.prose :is(h2, h3, h4, h5, h6) {
+	margin-top: 2rem;
+	margin-bottom: 1rem;
+}
+
+.prose p:not(:is(h2, h3, h4, h5, h6) + p) {
+	margin-top: 1rem;
+}
+
+.prose :is(ul, ol) {
+	list-style-type: disc;
+	padding-left: 1rem;
+	line-height: 1.5;
+}
+
+.prose :is(ul, ol) li {
+	margin-block: 0.3rem;
+	padding-inline-start: 0.5rem;
+}
+
+.prose a {
+	color: var(--brand-subtle);
+	text-decoration: underline;
+}
+
+.prose a:hover {
+	color: var(--brand);
+}
+
+.prose pre {
+	max-inline-size: 100%;
+	padding: 1rem;
+	border-radius: 8px;
+	tab-size: 2;
+}
+
+.prose blockquote {
+	border-left: 4px solid var(--brand);
+	padding-left: 1rem;
+	font-style: italic;
+}

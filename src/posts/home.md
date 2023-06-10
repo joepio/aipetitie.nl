@@ -1,0 +1,21 @@
+**Politiek, neem controle over AI**
+
+De opkomst van AI biedt kansen, maar brengt ook enorme risico's met zich mee. Daarom doen wij een oproep aan de Nederlandse politiek: neem controle over de ontwikkeling van AI. Zorg dat de mens bepaalt hoe een toekomst met AI eruitziet. Niet andersom.
+
+Niemand weet hoe een wereld met steeds geavanceerdere AI eruitziet. Als we AI voor ons laten werken en we de baten eerlijk verdelen, dan wordt de mensheid er beter van. Maar het kan ook radicaal verkeerd uitpakken. Want hoe meer AI in de buurt komt van menselijke vermogens, hoe meer het de fundamenten van onze samenleving raakt: ons werk, onze creativiteit, onze cultuur, onze informatievoorziening, onze democratie, onze soevereiniteit en de stabiliteit van onze mondiale systemen. Met grote risico's op ongelijkheid, onwaarachtigheid en onderdrukking.
+
+Menigeen is zich hiervan bewust, maar desondanks hebben onze overheden haast geen controle over de ontwikkeling van AI. Machtige bedrijven zoals Microsoft en Google bepalen het tempo en de richting. Daarbij zitten deze commerciële spelers in een ratrace om AI-doorbraken te forceren en nieuwe toepassingen op de markt te brengen. De consequenties zijn niet te overzien en we zijn er dus niet op voorbereid.
+
+Deskundigen, wetenschappers en burgerrechtenorganisaties maar ook programmeurs, tech-ondernemers en topmensen van internetbedrijven waarschuwen voor het existentiële risico dat AI in zich kan dragen en vrezen het scenario dat AI tegenover de mens komt te staan. Er gaan dan ook steeds meer stemmen op om nog dit jaar internationale afspraken te maken over een pauze in de ontwikkeling van AI. Maar met of zonder pauze, we mogen niet stilzitten. Ook de Nederlandse politiek moet in actie komen en ingrijpen door (wettelijke) voorwaarden te stellen aan AI. Met als doel om grip op de ontwikkelingen te krijgen, oncontroleerbare AI te vermijden, onwenselijke -economische of geopolitieke- machtsconcentraties te voorkomen en om onze democratische en rechtsstatelijke principes te beschermen.
+
+Het is tijd om publieke controle te nemen over de ontwikkeling van AI. En om ons voor te bereiden op wat komen gaat. Met regels. Met beperkingen. Met begrenzingen. Met kennis en kunde. Met een sleutelrol voor de overheid en de politiek. Daarom roepen wij de Nederlandse Tweede Kamer en het kabinet op tot het nemen van de volgende maatregelen:
+
+-   Neem een leidende rol in Europa en voer via EU-wetgeving hoogstaande regulering van AI-toepassingen door. Neem de AI-verordening nog dit jaar aan. Zorg dat geavanceerde AI, zoals foundation models, onder 'high risk' vallen, reduceer systemische risico's en dwing transparantie af over de training van het model.
+-   Versnel de aanname van het AI-verdrag in de Raad van Europa en (mede-)initieer het opzetten van een internationale top over AI op korte termijn.
+-   Vraag instanties met kennis en ervaring van AI om advies, verzoek om een snelle update van het WRR-rapport "Opgave AI" en koppel daaraan direct een rijksbreed actieplan.
+-   Laat door ieder ministerie in kaart brengen op welke gebieden AI fundamentele invloed zal uitoefenen en breng in kaart waar extra regelgeving nodig is om die invloed in goede banen te leiden. Stel als overheid ook een AI-inkoopstrategie vast.
+-   Informeer de Nederlandse bevolking op laagdrempelige wijze over de kansen en bedreigingen van de inzet van AI.
+-   Bewaak het onderscheid tussen menselijk en kunstmatig. Dwing af dat duidelijk is wanneer een uiting met AI tot stand is gekomen of wanneer een mens communiceert met AI. Dwing AI-ontwikkelaars publieke verantwoording af te leggen over de ontwikkelkeuzes die ze maken.
+-   Maak geld vrij voor een verdubbeling van de onderzoekscapaciteit op multidisciplinaire vakgebieden als AI Safety, AI en rechtsstaat en existentieel risico, bij bestaande instellingen en/of in een nieuw onderzoeksinstituut.
+
+Er is weinig tijd om bovenstaande doelen te realiseren. Al eerder veranderde de wereld door revolutionaire technologie, maar de snelheid waarmee dat gebeurt neemt iedere keer toe. Met AI is de wereld aan het veranderen met een ongekende -en deels ongeziene- snelheid en richting. We moeten vandaag beginnen met het organiseren van menselijke controle en publieke grip op kunstmatige intelligentie.
