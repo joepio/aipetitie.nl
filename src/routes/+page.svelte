@@ -1,8 +1,10 @@
 <script lang="ts">
+	import Progress from '$lib/components/Progress.svelte'
 	import Signer from '$lib/components/Signer.svelte'
 
-	const title = 'We need to Pause AI'
+	const title = 'Politiek, neem controle over AI'
 	export let data
+	let count = data.count
 </script>
 
 <svelte:head>
@@ -101,27 +103,32 @@
 			</p>
 		</div>
 	</section>
-	<section class="signers">
-		<h2>Getekend door</h2>
+	<section class="sign">
+		<Progress {count} />
 		<div class="signers">
 			{#each data.signers as s}
 				<Signer {s} />
 			{/each}
 		</div>
-
-		<h2>Zet ook je handtekening</h2>
-		<a
-			class="button"
-			href="https://docs.google.com/forms/d/e/1FAIpQLSdYfWgS-rFd5-NRhvBm4AoWGR6xQ_0fZtzBALKRyiIsLptOYA/viewform?usp=sf_link"
-		>
-			Teken ook
-		</a>
+		<div class="you-sighn">
+			<h2>Zet ook je handtekening</h2>
+			<a
+				class="button"
+				href="https://docs.google.com/forms/d/e/1FAIpQLSdYfWgS-rFd5-NRhvBm4AoWGR6xQ_0fZtzBALKRyiIsLptOYA/viewform?usp=sf_link"
+			>
+				Teken de petitie
+			</a>
+		</div>
 	</section>
 </div>
 
 <style>
+	h1 {
+		margin-top: 0;
+	}
 	.petition {
 		max-inline-size: 40rem;
+		flex: 3;
 	}
 	.button {
 		display: inline-block;
@@ -131,14 +138,27 @@
 		text-decoration: none;
 		border-radius: 0.5rem;
 	}
+	.sign {
+		gap: 1rem;
+		display: flex;
+		flex-direction: column;
+		flex: 1;
+	}
 	.signers {
 		display: flex;
 		flex-direction: column;
 		gap: 1rem;
+		min-width: 20rem;
 	}
 	.split {
 		display: flex;
 		flex-direction: row;
 		gap: 2rem;
+	}
+	/* Show beneath on small screens */
+	@media (max-width: 60rem) {
+		.split {
+			flex-direction: column;
+		}
 	}
 </style>

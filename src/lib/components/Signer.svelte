@@ -32,6 +32,10 @@
 	.name a {
 		color: var(--brand);
 		margin-bottom: 0.2rem;
+		text-decoration: none;
+	}
+	a:hover {
+		text-decoration: underline;
 	}
 	.signer {
 		display: flex;

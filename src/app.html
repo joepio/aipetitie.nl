@@ -5,13 +5,6 @@
 	<meta charset="utf-8" />
 	<meta name="viewport" content="width=device-width" />
 	<link rel="icon" href="%sveltekit.assets%/favicon.png" />
-	<script type="module">
-		const theme = localStorage.getItem('color-scheme')
-
-		theme
-			? document.documentElement.setAttribute('color-scheme', theme)
-			: localStorage.setItem('color-scheme', 'dark')
-	</script>
 	%sveltekit.head%
 </head>
 <!-- Google tag (gtag.js) -->

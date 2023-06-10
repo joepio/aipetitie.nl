@@ -1,10 +1,7 @@
 <script lang="ts">
-	import Toggle from '$lib/components/Toggle.svelte'
 </script>
 
-<footer>
-	<Toggle />
-</footer>
+<footer />
 
 <style>
 	footer {

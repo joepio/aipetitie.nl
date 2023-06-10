@@ -1,9 +1,5 @@
-<script lang="ts">
-	import { page } from '$app/stores'
-</script>
-
 <svg
-	class={`logo ${$page.url.pathname == '/' ? '' : 'logo-animate'}`}
+	class="logo"
 	width="243"
 	height="66"
 	viewBox="0 0 243 66"
@@ -32,23 +28,13 @@
 </svg>
 
 <style>
-	.logo-pause {
-		fill: var(--text);
-	}
 	.logo {
 		width: 11rem;
-		margin-left: -3.4rem;
 		overflow: visible;
 	}
 	.logo-circle {
 		transition: transform 0.1s ease-in-out;
 		transform-origin: center;
-	}
-	.logo-animate:hover .logo-circle {
-		transform: scale(1.1);
-	}
-	.logo-animate:active .logo-circle {
-		fill: var(--brand-subtle);
 	}
 	@media (max-width: 850px) {
 		.logo {

@@ -14,47 +14,20 @@ html {
 	--t-color-main: #a2180d; /* Default main color */
 
 	/* dark */
-	--brand-dark: var(--t-color-main);
+	--brand-dark: #cc908b;
 
 	/* light */
-	--brand-light: var(--t-color-main);
+	--brand-light: #cc908b;
 
 	--brand-white: #ecede2;
 	--brand-black: #000b37;
 }
 
 :root {
-	color-scheme: dark;
-
-	--brand: var(--brand-light);
-	--brand-subtle: hsl(32, 100%, 30%);
+	--brand: var(--t-color-main);
+	--brand-subtle: #cc908b;
 	--text: var(--brand-black);
 	--bg: var(--brand-white);
-}
-
-@media (prefers-color-scheme: light) {
-	:root {
-		color-scheme: light;
-
-		--brand: var(--brand-light);
-	}
-}
-
-[color-scheme='dark'] {
-	color-scheme: dark;
-
-	--brand: var(--brand-dark);
-	--brand-subtle: hsl(32, 100%, 75%);
-	--text: var(--brand-white);
-	--bg: var(--brand-black);
-}
-
-[color-scheme='light'] {
-	color-scheme: light;
-
-	--brand: var(--brand-light);
-	--brand-subtle: hsl(32, 100%, 35%);
-	--text: var(--brand-black);
 }
 
 html,

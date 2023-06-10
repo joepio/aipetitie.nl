@@ -3,9 +3,9 @@
 </script>
 
 <nav>
-	<a href="/">
+	<!-- <a href="/">
 		<Logo />
-	</a>
+	</a> -->
 </nav>
 
 <style>
@@ -14,8 +14,6 @@
 		justify-content: space-between;
 		align-items: center;
 		flex-direction: column;
-		padding: 2rem 0;
-		margin-left: -1rem;
 		flex-wrap: wrap;
 	}
 
