@@ -26,6 +26,7 @@ html {
 :root {
 	--brand: var(--t-color-main);
 	--brand-subtle: #cc908b;
+	--brand-strong: #72150e;
 	--text: var(--brand-black);
 	--bg: var(--brand-white);
 }

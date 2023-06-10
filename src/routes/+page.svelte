@@ -1,5 +1,6 @@
 <script lang="ts">
 	import Progress from '$lib/components/Progress.svelte'
+	import Sign from '$lib/components/Sign.svelte'
 	import Signer from '$lib/components/Signer.svelte'
 
 	const title = 'Politiek, neem controle over AI'
@@ -105,20 +106,14 @@
 	</section>
 	<section class="sign">
 		<Progress {count} />
-		<div class="you-sighn">
-			<a
-				class="button"
-				href="https://docs.google.com/forms/d/e/1FAIpQLSdYfWgS-rFd5-NRhvBm4AoWGR6xQ_0fZtzBALKRyiIsLptOYA/viewform?usp=sf_link"
-			>
-				Teken ook de petitie
-			</a>
-		</div>
+		<Sign />
 		<h3>Zij gingen je voor:</h3>
 		<div class="signers">
 			{#each data.signers as s}
 				<Signer {s} />
 			{/each}
 		</div>
+		<Sign />
 	</section>
 </div>
 
@@ -130,20 +125,12 @@
 		max-inline-size: 40rem;
 		flex: 3;
 	}
-	.button {
-		display: inline-block;
-		padding: 0.5rem 1rem;
-		background: var(--brand);
-		color: white;
-		text-decoration: none;
-		border-radius: 0.5rem;
-	}
 	.sign {
 		gap: 1rem;
 		display: flex;
 		flex-direction: column;
-		max-width: 20rem;
-		margin-left: auto;
+		/* max-width: 30rem; */
+		flex: 2;
 	}
 	.signers {
 		display: flex;
@@ -153,14 +140,22 @@
 		overflow-y: auto; */
 	}
 	.split {
-		display: flex;
-		flex-direction: row;
-		gap: 4rem;
+		flex-direction: column;
 	}
 	/* Show beneath on small screens */
-	@media (max-width: 60rem) {
+	@media (min-width: 60rem) {
 		.split {
+			display: flex;
+			flex-direction: row;
+			gap: 4rem;
+		}
+		.sign {
+			display: flex;
 			flex-direction: column;
+		}
+
+		.signers {
+			/* overflow-y: scroll; */
 		}
 	}
 </style>

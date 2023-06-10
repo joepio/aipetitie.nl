@@ -20,7 +20,7 @@
 		{/if}
 	</div>
 	{#if s.foto}
-		<img src={s.foto} alt={s.naam} />
+		<img src={s.foto} alt="" onError="this.style.display='none'" />
 	{/if}
 </div>
 
@@ -44,8 +44,8 @@
 	}
 	img {
 		width: 100%;
-		max-width: 80px;
-		max-height: 80px;
+		max-width: 60px;
+		max-height: 60px;
 		border-radius: 999px;
 		margin-left: auto;
 	}
