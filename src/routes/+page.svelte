@@ -1,4 +1,5 @@
 <script lang="ts">
+	import Initiators from '$lib/components/Initiators.svelte'
 	import Progress from '$lib/components/Progress.svelte'
 	import Sign from '$lib/components/Sign.svelte'
 	import Signer from '$lib/components/Signer.svelte'
@@ -76,7 +77,8 @@
 				richting. We moeten vandaag beginnen met het organiseren van menselijke controle en grip op
 				kunstmatige intelligentie.
 			</p>
-			<Sign />
+			<Initiators {count} />
+			<h2>Onze petitie</h2>
 			<p>
 				Deze petitie wordt gelanceerd in een tijd waarin we de ontwikkeling van AI een grote vlucht
 				zien nemen. Niemand weet hoe een wereld met steeds geavanceerdere AI eruit ziet. Als we AI
@@ -124,7 +126,7 @@
 	.logo {
 		/* max-width: 20rem; */
 		/* or max 50vw */
-		max-width: calc(min(20rem, 80vw));
+		max-width: calc(min(20rem, 50vw));
 		margin: auto;
 		display: block;
 	}
