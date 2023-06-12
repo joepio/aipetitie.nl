@@ -36,10 +36,16 @@ export type Sigs = {
 	count: number
 }
 
+const organiserCount = 7
+
 export async function GET() {
 	const cache = await fetch(originalSigs, config)
 	let orignalSigsData = await cache.json()
 	let signers: Signer[] = orignalSigsData.blad1.map(convertGoogleDriveUrl)
+
+	// remove initiators
+	signers = signers.slice(organiserCount)
+
 	const headers = {
 		'cache-control': 'public, max-age=600',
 		'content-type': 'application/json'

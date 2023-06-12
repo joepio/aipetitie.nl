@@ -29,6 +29,12 @@
 			foto: 'https://drive.google.com/file/d/1rUYbcHY0eKrvhNFy28aGBIBdwvCShphK/view?usp=drive_link'
 		},
 		{
+			naam: 'Joep Meindertsma',
+			functie: 'Oprichter Pause AI',
+			twitter: '@joepmeindertsma',
+			foto: 'https://drive.google.com/file/d/16pFiT5A2a1hDdk7pNPKTamJ2j0WUSQwD/view?usp=drive_link'
+		},
+		{
 			naam: 'Myrthe Hilkens',
 			functie: 'Campagnestrateeg, Voormalig lid Tweede Kamer',
 			twitter: '@MyrtheHilkens',
@@ -42,17 +48,15 @@
 		},
 		{
 			naam: 'Ruben Dieleman',
-			functie: 'Campagneleider Existential Risk Observatory'
-		},
-		{
-			naam: 'Joep Meindertsma',
-			functie: 'Oprichter Pause AI',
-			twitter: '@joepmeindertsma',
-			foto: 'https://drive.google.com/file/d/16pFiT5A2a1hDdk7pNPKTamJ2j0WUSQwD/view?usp=drive_link'
+			functie: 'Campagneleider Existential Risk Observatory',
+			twitter: '@RBNDLM',
+			foto: 'https://drive.google.com/file/d/1g_bThWscjvQ5AvacTCYY5BqpjnSnVmw0/view?usp=drive_link'
 		},
 		{
 			naam: 'Marijn van Vliet',
-			functie: 'Zelfstandig Politiek Adviseur technologie en digitaal'
+			functie: 'Zelfstandig Politiek Adviseur technologie en digitaal',
+			twitter: '@MRvanvliet',
+			foto: 'https://drive.google.com/file/d/1WSVhu8XjHPXdeQc1cGELBBB43mypZOsb/view?usp=drive_link'
 		}
 	].map(convertGoogleDriveUrl)
 

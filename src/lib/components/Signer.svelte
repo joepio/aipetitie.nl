@@ -47,5 +47,6 @@
 		max-height: 60px;
 		border-radius: 999px;
 		margin-left: auto;
+		object-fit: cover;
 	}
 </style>

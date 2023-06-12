@@ -14,9 +14,7 @@
 	<meta property="og:title" content={title} />
 	<meta
 		property="og:description"
-		content="De opkomst van AI biedt kansen, maar brengt ook enorme risico's met zich mee. Daarom doen
-		wij een oproep aan de Nederlandse politiek: neem controle over de ontwikkeling van AI. Zorg
-		dat de mens bepaalt hoe een toekomst met AI eruitziet. Niet andersom."
+		content="De opkomst van AI biedt kansen, maar brengt ook enorme risico's met zich mee. Daarom doen wij een oproep aan de Nederlandse politiek: neem controle over de ontwikkeling van AI. Zorg dat de mens bepaalt hoe een toekomst met AI eruitziet. Niet andersom."
 	/>
 </svelte:head>
 
