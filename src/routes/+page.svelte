@@ -170,9 +170,5 @@
 			display: flex;
 			flex-direction: column;
 		}
-
-		.signers {
-			/* overflow-y: scroll; */
-		}
 	}
 </style>

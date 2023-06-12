@@ -1,10 +1,10 @@
 import { initiators } from '$lib/initiators'
 import { json } from '@sveltejs/kit'
 
-const originalSigs =
+const originalSigsUrl =
 	'https://api.sheety.co/b964e185b8938b92a389210e29cbebf9/eersteOndertekenaarsPetitieV2/blad1'
 
-const siteSigs =
+const formSigsUrl =
 	'https://api.sheety.co/b964e185b8938b92a389210e29cbebf9/ondertekenFormulier (responses)/formResponses1'
 
 export type Signer = {
@@ -26,7 +26,7 @@ function convertGoogleDriveUrl(s: Signer) {
 }
 
 const bearer = 'SEIUGHNSEUIGNPEIESGFUNESPGNESGSUNSEIN'
-const config = {
+const fetchConfig = {
 	headers: {
 		Authorization: `Bearer ${bearer}`
 	}
@@ -38,17 +38,17 @@ export type Sigs = {
 }
 
 export async function GET() {
-	const cache = await fetch(originalSigs, config)
+	const cache = await fetch(originalSigsUrl, fetchConfig)
 	let orignalSigsData = await cache.json()
 	let signers: Signer[] = orignalSigsData.blad1.map(convertGoogleDriveUrl)
 
 	const headers = {
-		'cache-control': 'public, max-age=600',
+		'cache-control': 'public, max-age=60',
 		'content-type': 'application/json'
 	}
-	let sitesigsdata = await fetch(siteSigs, config)
-	let sitesigs = await sitesigsdata.json()
-	let count = sitesigs.formResponses1.length + signers.length
+	let formSigsResp = await fetch(formSigsUrl, fetchConfig)
+	let formSigs = await formSigsResp.json()
+	let count = formSigs.formResponses1.length + signers.length
 
 	// remove initiators
 	signers = signers.slice(initiators.length)

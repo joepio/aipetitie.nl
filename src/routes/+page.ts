@@ -5,6 +5,7 @@ export async function load({ fetch }) {
 	try {
 		const response = await fetch('api/signers')
 		const signers: Sigs = await response.json()
+		console.log('signers.count', signers.count)
 		return signers
 	} catch (e) {
 		console.error('error: ', e)
