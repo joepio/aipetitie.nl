@@ -43,9 +43,6 @@ export async function GET() {
 	let orignalSigsData = await cache.json()
 	let signers: Signer[] = orignalSigsData.blad1.map(convertGoogleDriveUrl)
 
-	// remove initiators
-	signers = signers.slice(organiserCount)
-
 	const headers = {
 		'cache-control': 'public, max-age=600',
 		'content-type': 'application/json'
@@ -53,6 +50,9 @@ export async function GET() {
 	let sitesigsdata = await fetch(siteSigs, config)
 	let sitesigs = await sitesigsdata.json()
 	let count = sitesigs.formResponses1.length + signers.length
+
+	// remove initiators
+	signers = signers.slice(organiserCount)
 
 	const data: Sigs = {
 		signers,

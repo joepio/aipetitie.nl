@@ -30,7 +30,7 @@
 		},
 		{
 			naam: 'Joep Meindertsma',
-			functie: 'Oprichter Pause AI',
+			functie: 'Oprichter PauseAI, directeur Ontola.io',
 			twitter: '@joepmeindertsma',
 			foto: 'https://drive.google.com/file/d/16pFiT5A2a1hDdk7pNPKTamJ2j0WUSQwD/view?usp=drive_link'
 		},
