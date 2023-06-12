@@ -122,7 +122,9 @@
 
 <style>
 	.logo {
-		max-width: 20rem;
+		/* max-width: 20rem; */
+		/* or max 50vw */
+		max-width: calc(min(20rem, 80vw));
 		margin: auto;
 		display: block;
 	}
