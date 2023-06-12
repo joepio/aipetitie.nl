@@ -2,15 +2,14 @@
 	import type { Signer } from '../../routes/api/signers/+server'
 
 	export let s: Signer
+	let url = s.twitter && s.twitter.startsWith('@') ? `https://twitter.com/${s.twitter}` : s.twitter
 </script>
 
 <div class="signer">
 	<div class="details">
 		<h3 class="name">
-			{#if s.twitter}
-				<a href={`https://twitter.com/${s.twitter}`} target="_blank" rel="noopener noreferrer"
-					>{s.naam}</a
-				>
+			{#if url}
+				<a href={url} target="_blank" rel="noopener noreferrer">{s.naam}</a>
 			{:else}
 				{s.naam}
 			{/if}

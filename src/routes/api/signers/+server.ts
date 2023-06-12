@@ -1,7 +1,7 @@
 import { json } from '@sveltejs/kit'
 
 const originalSigs =
-	'https://api.sheety.co/b964e185b8938b92a389210e29cbebf9/copyOfEersteOndertekenaarsPetitie/blad1'
+	'https://api.sheety.co/b964e185b8938b92a389210e29cbebf9/eersteOndertekenaarsPetitieV2/blad1'
 
 const siteSigs =
 	'https://api.sheety.co/b964e185b8938b92a389210e29cbebf9/ondertekenFormulier (responses)/formResponses1'
