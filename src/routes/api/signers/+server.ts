@@ -43,7 +43,7 @@ export async function GET() {
 	let signers: Signer[] = orignalSigsData.blad1.map(convertGoogleDriveUrl)
 
 	const headers = {
-		'cache-control': 'public, max-age=60',
+		// 'cache-control': 'public, max-age=60',
 		'content-type': 'application/json'
 	}
 	let formSigsResp = await fetch(formSigsUrl, fetchConfig)
