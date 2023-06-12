@@ -15,6 +15,7 @@
 		href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;700&family=Saira+Condensed:wght@700&display=swap"
 		rel="stylesheet"
 	/>
+	<meta property="og:image" content="/social.jpeg" />
 </svelte:head>
 
 <div class="layout">
