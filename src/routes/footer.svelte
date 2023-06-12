@@ -16,17 +16,8 @@
 		align-items: center;
 	}
 
-	.c2a {
-		color: var(--brand);
-		text-transform: uppercase;
-		text-decoration: none;
-		font-size: 1rem;
-		font-family: var(--font-heading);
-	}
-
 	a {
 		color: var(--brand);
-		font-size: var(--text-xs);
 		text-decoration: none;
 	}
 

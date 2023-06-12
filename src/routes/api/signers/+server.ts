@@ -41,7 +41,7 @@ export async function GET() {
 	let orignalSigsData = await cache.json()
 	let signers: Signer[] = orignalSigsData.blad1.map(convertGoogleDriveUrl)
 	const headers = {
-		'cache-control': 'public, max-age=3600',
+		'cache-control': 'public, max-age=600',
 		'content-type': 'application/json'
 	}
 	let sitesigsdata = await fetch(siteSigs, config)
