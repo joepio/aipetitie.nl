@@ -7,8 +7,6 @@
 
 <style>
 	footer {
-		display: flex;
-		flex-direction: row;
 		gap: 0.2rem;
 		font-size: 0.8rem;
 		padding-bottom: 1rem;

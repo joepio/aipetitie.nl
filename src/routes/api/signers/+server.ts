@@ -1,3 +1,4 @@
+import { initiators } from '$lib/initiators'
 import { json } from '@sveltejs/kit'
 
 const originalSigs =
@@ -36,8 +37,6 @@ export type Sigs = {
 	count: number
 }
 
-const organiserCount = 7
-
 export async function GET() {
 	const cache = await fetch(originalSigs, config)
 	let orignalSigsData = await cache.json()
@@ -52,7 +51,7 @@ export async function GET() {
 	let count = sitesigs.formResponses1.length + signers.length
 
 	// remove initiators
-	signers = signers.slice(organiserCount)
+	signers = signers.slice(initiators.length)
 
 	const data: Sigs = {
 		signers,

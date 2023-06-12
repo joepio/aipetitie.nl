@@ -14,7 +14,7 @@
 	<meta property="og:title" content={title} />
 	<meta
 		property="og:description"
-		content="De opkomst van AI biedt kansen, maar brengt ook enorme risico's met zich mee. Daarom doen wij een oproep aan de Nederlandse politiek: neem controle over de ontwikkeling van AI. Zorg dat de mens bepaalt hoe een toekomst met AI eruitziet. Niet andersom."
+		content="De opkomst van AI biedt kansen, maar brengt ook enorme risico’s met zich mee. Daarom doen wij een oproep aan de Nederlandse politiek: neem controle over ontwikkeling van AI. Zorg dat de mens bepaalt hoe een toekomst met AI eruitziet. Niet andersom."
 	/>
 </svelte:head>
 
@@ -25,7 +25,7 @@
 			<h1>Politiek, neem controle over AI</h1>
 
 			<p>
-				De opkomst van AI biedt kansen, maar brengt ook enorme risico's met zich mee. Daarom doen
+				De opkomst van AI biedt kansen, maar brengt ook enorme risico’s met zich mee. Daarom doen
 				wij een oproep aan de Nederlandse politiek: neem controle over ontwikkeling van AI. Zorg dat
 				de mens bepaalt hoe een toekomst met AI eruitziet. Niet andersom.
 			</p>
@@ -37,23 +37,33 @@
 
 			<ul>
 				<li>
-					Neem een leidende rol in Europa en versnel regulering van AI-toepassingen via
-					EU-wetgeving. Neem de AI-verordening nog dit jaar aan. Zorg dat geavanceerde AI, zoals
-					foundation models, onder 'high risk' vallen en dwing transparantie af over de training van
-					het model.
+					Neem een leidende rol in Europa en voer via EU-wetgeving hoogstaande regulering van
+					AI-toepassingen door. Neem de AI-verordening nog dit jaar aan. Zorg dat geavanceerde AI,
+					zoals foundation models, onder ‘high risk’ vallen, reduceer systemische risico’s en dwing
+					transparantie af over de training van het model.
 				</li>
 				<li>
-					Versnel de aanname van het AI verdrag in de Raad van Europa en neem het initiatief tot het
+					Versnel de aanname van het AI-verdrag in de Raad van Europa en (mede-)initieer het
 					opzetten van een internationale top over AI op korte termijn.
+				</li>
+				<li>
+					Vraag instanties met kennis en ervaring van AI om advies, verzoek om een snelle update van
+					het WRR-rapport “Opgave AI” en koppel daaraan direct een rijksbreed actieplan.
 				</li>
 				<li>
 					Laat door ieder ministerie in kaart brengen op welke gebieden AI fundamentele invloed zal
 					uitoefenen en breng in kaart waar extra regelgeving nodig is om die invloed in goede banen
-					te leiden.
+					te leiden. Stel als overheid ook een AI-inkoopstrategie vast.
+				</li>
+				<li>
+					Informeer de Nederlandse bevolking op laagdrempelige wijze over de kansen en bedreigingen
+					van de inzet van AI.
 				</li>
 				<li>
 					Bewaak het onderscheid tussen menselijk en kunstmatig. Dwing af dat duidelijk is wanneer
-					een uiting met AI tot stand is gekomen of wanneer een mens communiceert met AI.
+					een uiting met AI tot stand is gekomen of wanneer een mens communiceert met AI. Dwing
+					AI-ontwikkelaars publieke verantwoording af te leggen over de ontwikkelkeuzes die ze
+					maken.
 				</li>
 				<li>
 					Het is onduidelijk wat de investeringen in onderzoek naar risico's van AI zijn, maar wel
@@ -61,10 +71,6 @@
 					Daarom moet er de komende jaren worden toegewerkt naar 300 voltijdsonderzoeksposities op
 					de vakgebieden AI Safety, AI en rechtsstaat en existentieel risico in een nieuw op te
 					zetten onderzoeksinstituut en/of bij bestaande instituten.
-				</li>
-				<li>
-					Verzoek om een snelle update van het WRR-rapport "Opgave AI" en koppel daaraan direct een
-					rijksbreed actieplan.
 				</li>
 			</ul>
 
@@ -79,10 +85,10 @@
 			<h2>Onze petitie</h2>
 			<p>
 				Deze petitie wordt gelanceerd in een tijd waarin we de ontwikkeling van AI een grote vlucht
-				zien nemen. Niemand weet hoe een wereld met steeds geavanceerdere AI eruit ziet. Als we AI
+				zien nemen. Niemand weet hoe een wereld met steeds geavanceerdere AI eruitziet. Als we AI
 				voor ons laten werken en we de baten eerlijk verdelen, dan wordt de mensheid er beter van.
-				Maar het kan ook radicaal verkeerd uitpakken. Want hoe meer AI op menselijke intelligentie
-				gaat lijken, hoe meer het de fundamenten van onze samenleving raakt: ons werk, onze
+				Maar het kan ook radicaal verkeerd uitpakken. Want hoe meer AI in de buurt komt van
+				menselijke vermogens, hoe meer het de fundamenten van onze samenleving raakt: ons werk, onze
 				creativiteit, onze cultuur, onze informatievoorziening, onze democratie, onze soevereiniteit
 				en de stabiliteit van onze mondiale systemen. Met grote risico’s op ongelijkheid,
 				onwaarachtigheid en onderdrukking. Menigeen is zich hiervan bewust, maar desondanks hebben
@@ -98,13 +104,13 @@
 				dan ook steeds meer stemmen op om nog dit jaar internationale afspraken te maken over een
 				pauze in de ontwikkeling van AI. Maar met of zonder pauze, we mogen niet stilzitten. Ook de
 				Nederlandse politiek moet in actie komen en ingrijpen door (wettelijke) voorwaarden te
-				stellen aan AI. Met als doel om oncontroleerbare AI te voorkomen en onze menselijke
-				waardigheid, onze economische en geopolitieke machtsverdeling en onze democratische en
-				rechtsstatelijke principes te beschermen. Het is tijd om publieke controle te nemen over de
-				ontwikkeling van AI. En om ons voor te bereiden op wat komen gaat. Met regels. Met
-				beperkingen. Met begrenzingen. Met kennis en kunde. Met een sleutelrol voor de overheid en
-				de politiek. Tijd om te zorgen voor meer controle over AI.
+				stellen aan AI. Met als doel om grip op de ontwikkelingen te krijgen, oncontroleerbare AI te
+				vermijden, onwenselijke -economische of geopolitieke- machtsconcentraties te voorkomen en om
+				onze democratische en rechtsstatelijke principes te beschermen. Het is tijd om publieke
+				controle te nemen over de ontwikkeling van AI. En om ons voor te bereiden op wat komen gaat.
+				Met regels. Met beperkingen. Met begrenzingen.
 			</p>
+			<p>Tijd om te zorgen voor meer controle over AI.</p>
 		</div>
 	</section>
 	<section class="sign">
