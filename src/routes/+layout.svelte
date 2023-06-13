@@ -15,7 +15,7 @@
 		href="https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;700&family=Saira+Condensed:wght@700&display=swap"
 		rel="stylesheet"
 	/>
-	<meta property="og:image" content="/social.png" />
+	<meta property="og:image" content="https://aipetitie.nl/social.png" />
 	<meta name="twitter:card" content="summary" />
 	<meta name="twitter:site" content="@ControlAI_NL" />
 	<meta name="twitter:creator" content="@ControlAI_NL" />
