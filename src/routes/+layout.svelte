@@ -16,6 +16,9 @@
 		rel="stylesheet"
 	/>
 	<meta property="og:image" content="/social.png" />
+	<meta name="twitter:card" content="summary" />
+	<meta name="twitter:site" content="@ControlAI_NL" />
+	<meta name="twitter:creator" content="@ControlAI_NL" />
 </svelte:head>
 
 <div class="layout">
