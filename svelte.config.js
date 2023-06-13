@@ -30,7 +30,8 @@ const config = {
 	preprocess: [vitePreprocess(), mdsvex(mdsvexOptions)],
 	kit: {
 		adapter: adapter({
-			edge: true
+			// This on true might be causing issues with SSR
+			edge: false
 		})
 	}
 }

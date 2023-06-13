@@ -1,6 +1,6 @@
 <script lang="ts">
 	export let count: number = 0
-	$: goal = Math.pow(10, Math.ceil(Math.log10(count + 1)))
+	$: goal = Math.ceil((count + 1) / 1000) * 1000
 	$: percentage = Math.round((count / goal) * 100)
 </script>
 
