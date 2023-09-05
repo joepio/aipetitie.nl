@@ -1,4 +1,4 @@
-# ControlAI.nl website
+# AIpetitie.nl website
 
 ## Creating articles
 
