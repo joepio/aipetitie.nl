@@ -18,9 +18,9 @@
 			<div class="function">{s.functie}</div>
 		{/if}
 	</div>
-	{#if s.foto}
+	<!-- {#if s.foto}
 		<img src={s.foto} alt="" onError="this.style.display='none'" />
-	{/if}
+	{/if} -->
 </div>
 
 <style>

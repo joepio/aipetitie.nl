@@ -24,7 +24,7 @@ The article will be published automatically when the pull request is merged.
 
 ```sh
 git clone git@github.com:joepio/pauseai.git
-# Instead of pnpm you could use npm or yarn
-pnpm install
-pnpm run dev
+# Instead of bun you could use npm, pnpm or yarn
+bun run install
+bun run dev
 ```
